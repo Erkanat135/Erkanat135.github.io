@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0080ff;
+}
+a {
+  text-decoration: none;
+}
+
+.header-links {
+  padding: 24px 0;
+  text-align: right;
+}
+.header-links a {
+  color: white;
+  margin-left: 16px;
+}
+
+.welcome-inner {
+  text-align: center;
+  padding: 240px 0;
+}
+.welcome {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2000px 1200px;
+  background-image: url("https://msreview.net/uploads/posts/2019-08/1567138570_windows-10.jpg");
+  color: white;
+}
+.welcome-inner h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.welcome-inner h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+button {
+  padding: 14px 24px;
+  background-color: #73b66b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.about-inner {
+  padding: 120px 0;
+  text-align: center;
+}
+.about-inner h1 {
+  font-size: 36px;
+}
+.about-inner p {
+  opacity: 0.9;
+}
+.about-item {
+  display: inline-block;
+  width: 33%;
+}
+.about-item img {
+  width: 35%;
+}
+.about-text {
+  width: 50%;
+}
+.about-text h2 {
+  font-size: 22px;
+}
+.about-text p {
+  font-size: 14px;
+}
+.about-list {
+  padding: 70px 0 55px;
+}
+
+.services {
+  background-color: #f0f0f0;
+}
+.services-inner {
+  padding: 105px 0;
+}
+.services-info {
+  display: flex;
+  align-items: center;
+}
+.services-text h2 {
+  font-size: 36px;
+}
+.services-text p {
+  opacity: 0.8;
+}
+.services-text {
+  padding-right: 60px;
+}
+.services-img {
+  width: 35%;
+}
+
+hr {
+  margin: 105px 0;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+}
+.services-item h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.works {
+  background-image: url("https://fs01.getcourse.ru/fileservice/file/download/a/208688/sc/108/h/4f2963fc78a10b949c637228b82af5d1.png");
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+.works-inner {
+  padding: 100px 0;
+}
+.works-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.works-title h1 {
+  font-size: 36px;
+  color: white;
+}
+.works-list {
+  display: flex;
+  justify-content: space-between;
+}
+.works-item {
+  width: 30%;
+}
+.works-item h2 {
+  font-size: 18px;
+}
+.works-item h2 span {
+  color: #0080ff;
+}
+.works-item p {
+  color: #6b6b6b;
+}
